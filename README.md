@@ -7,6 +7,6 @@ See my blog post for details: http://asmaloney.com/2014/01/code/creating-an-inte
 
 (The image icons came from here: [clker.com](http://www.clker.com/clipart-google-maps-pin-blue.html))
 
-23 January 2014
-Andy Maloney
+23 January 2014  
+Andy Maloney  
 https://asmaloney.com
