@@ -4,10 +4,16 @@
     <title>Leaflet Example - asmaloney.com</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""/>
 
-    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
-    <script type='text/javascript' src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js'></script>
+    <script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"
+      integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+      crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+      integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+      crossorigin=""></script>
   </head>
 
   <body>
@@ -23,10 +29,17 @@
       <p>Andy Maloney // <a href="https://asmaloney.com" target="_blank">asmaloney.com</a>
       <br/>23 Jan 2014
 
-      <p><b>[19 Apr 2014]</b> Added <i>http:</i> to the scheme-less ajax.googleapis.com URI so double-clicking this file to open in the browser works.
+      <p><b>[08 Oct 2019]</b>
+        <ul>
+          <li>Updated to Leaflet 1.5.1 and jQuery 3.4.1.</li>
+          <li>Added <a href="https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity">Subresource Integrity</a> to CSS and CDN JavaScript.</li>
+          <li>Changed the marker file from .json to .js since it is actually a JavaScript file.</li>
+          <li>Added a new country to the list :-)</li>
+        </ul>
+      <p><b>[16 Jul 2016]</b> Switched to Leaflet 0.7.7.
       <p><b>[12 Jul 2016]</b> MapQuest discontinued the tile set I was using, so I switched to OpenStreetMap’s tiles. Note that these are useful only for testing. They say on their site:
         <blockquote>"Apart from very limited testing purposes, you should not use the tiles supplied by OpenStreetMap.org itself."</blockquote>
-      <p><b>[16 Jul 2016]</b> Switched to Leaflet 0.7.7.
+      <p><b>[19 Apr 2014]</b> Added <i>http:</i> to the scheme-less ajax.googleapis.com URI so double-clicking this file to open in the browser works.
     </div>
     <script type='text/javascript' src='maps/markers.js'></script>
     <script type='text/javascript' src='maps/leaf-demo.js'></script>
