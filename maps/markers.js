@@ -1,4 +1,4 @@
-markers = [
+var markers = [
    {
      "name": "Canada",
      "url": "https://en.wikipedia.org/wiki/Canada",
@@ -82,5 +82,11 @@ markers = [
      "url": "https://en.wikipedia.org/wiki/Japan",
      "lat": 36.204824,
      "lng": 138.252924
+   },
+   {
+     "name": "Argentina",
+     "url": "https://en.wikipedia.org/wiki/Argentina",
+     "lat": -38.416096,
+     "lng": -63.616673
    }
 ];
